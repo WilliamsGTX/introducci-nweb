@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Bienvenido</title>
+  <link rel="icon" href="data:image/jpeg;base64,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" type="image/jpg">
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/resume.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Williams Geovanny Carrillo Fuentes</span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/logo.jpg" alt="">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">INTRODUCCIÓN</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience">CLASES IMPARTIDAS</a>
+        </li>
+        <a class="nav-link js-scroll-trigger" href="#awards">AUTOR</a>
+        </li>
+        <li class="nav-item">
+      </ul>|
+    </div>
+  </nav>
+          <li class="nav-item">
+  <div class="container-fluid p-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+      <div class="w-100">
+        <h1 class="mb-0">Introducción
+          <span class="text-primary">a Ingenieria de Software</span>
+        </h1>
+        <p class="lead mb-5"><p><strong>Sitio recopilatorio de las clases impartidas durante la estadía del primer parcial de la materia de introduccíon a Software.</strong></p>
+<p><strong>Sobre la pagina:</strong></p>
+<p><strong>Este sitio alojado en un repositorio de GitHub, tiene la finalidad de recopilar todo lo enseñado durante el primer parcial de la materia de Introducción a Software de la mano del Ing. Angel Cuenca.</strong></p>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+      <div class="w-100">
+        <h2 class="mb-5">Introducción a la ingenieria de Software</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">FUNDAMENTOS A LA INGENIERÍA DE SOFTWARE</h3>
+            <div class="subheading mb-3">Definición de IS (continúa)</div>
+            <p><p><strong>Bohem, 1976</strong>: Ingenier&iacute;a del Software es la aplicaci&oacute;n practica<br />del conocimiento cient&iacute;fico en el dise&ntilde;o y construcci&oacute;n de<br />programas de computadora y la documentaci&oacute;n necesaria<br />requerida para desarrollar, operar (funcionar) y mantenerlos.</p><p><strong>Definici&oacute;n de IS</strong> (resumiendo)<br />La ingenier&iacute;a de software es una aplicaci&oacute;n pr&aacute;ctica del<br />conocimiento cientifico para proveer metodolog&iacute;as y t&eacute;cnicas<br />que ayuden a desarrollar sistemas de software a tiempo y a su<br />vez que aseguren que el desarrollador cumpla con las<br />expectativas de calidad y permanezca dentro del presupuesto.</p><p><strong>Objetivos de la IS:</strong><br />Dise&ntilde;ar programas inform&aacute;ticos que se adec&uacute;en a las exigencias<br />de la sociedad.<br />Liderar y acoplar el desarrollo de programaciones complicadas.<br />Actuar en todas las fases del ciclo de vida de un producto.<br />Computar los costos de un proyecto y evaluar los 7empos de<br />desarrollo.<br />Realizar el seguimiento de costes y plazos.<br />Liderar equipos de trabajo de desarrollo software.</p>
+<p><strong>Objetivos de la IS (contin&uacute;a)</strong><br />Estructurar la elaboraci&oacute;n de evidencias que comprueben el<br />perfecto funcionamiento de los programas y que se adaptan a<br />los requerimientos de an&aacute;lisis y dise&ntilde;o.<br />Dise&ntilde;ar, construir y administrar bases de datos.<br />Liderar y orientar a los programadores durante el desarrollo de<br />aplicaciones.<br />Incluir procesos de calidad en los sistemas, calculando m&eacute;tricas<br />e indicadores y chequeando la calidad del software producido.</p>
+<p><strong>Origen de IS:</strong><br />Ingenier&iacute;a del So-ware, es el t&eacute;rmino utlizado por Fritz Bauer en la<br />primera conferencia sobre desarrollo de so-ware patrocinada por el<br />Comit&eacute; de Ciencia de la OTAN celebrada en Garmisch (Alemania), en<br />octubre de 1968, previamente hab&iacute;a sido utilizado por el<br />holand&eacute;s Edsger Dijkstra en su obra The Humble Programmer.<br />Puede definirse seg&uacute;n Alan Davis como "la aplicaci&oacute;n inteligente de<br />principios probados, t&eacute;cnicas, lenguajes y herramientas para la<br />creaci&oacute;n y mantenimiento, dentro de un coste razonable, de sofware<br />que satisfaga las necesidades de los usuarios".</p>
+<ul style="list-style-type: circle;">
+<li><strong>Origen de IS (contin&uacute;a)</strong><br />Su origen se debi&oacute; a que el entorno de desarrollo de sistemas<br />software adolec&iacute;a de:<br />Retrasos considerables en la planificaci&oacute;n<br />Poca productividad<br />Elevadas cargas de mantenimiento<br />Demandas cada vez m&aacute;s desfasadas frente a las ofertas<br />Baja calidad y fiabilidad del producto<br />Dependencia de los realizadores</li><p>-Esto es lo que se ha denominado habitualmente "crisis del<br />software", que hist&oacute;ricamente se gener&oacute; en los siguientes<br />pasos:<br />-Primera Fase. Los albores (1945-1955)<br />-Programar no es una tarea diferenciada del dise&ntilde;o de una<br />m&aacute;quina.<br />-Uso de lenguaje m&aacute;quina y ensamblador.<br />-Segunda Fase. El florecimiento (1955-1965)<br />-Aparecen multitud de lenguajes<br />-Se pensaba que era posible hacer casi todo.</p>
+<p>-Tercera Fase. La crisis (1965-1970)-Desarrollo inacabable de grandes programas<br />-Ineficiencia, errores, coste impredecible<br />-Nada es posible.<br />-Cuarta Fase. Innovaci&oacute;n conceptual (1970-1980)<br />-Fundamentos de programaci&oacute;n<br />-Verificaci&oacute;n de programas<br />-Metodolog&iacute;as de dise&ntilde;o.</p>
+<p>-Quinta Fase. El dise&ntilde;o es el problema (1980-?)<br />-Entornos de programaci&oacute;n<br />-Especificaci&oacute;n formal<br />-Programaci&oacute;n autom&aacute;tica.</p><p><strong>La evoluci&oacute;n del software:</strong><br />El t&eacute;rmino &ldquo;evoluci&oacute;n&rdquo; del software se utiliza desde los sesenta<br />para denominar la din&aacute;mica de crecimiento del software.<br />Una definici&oacute;n atribuida a Lehman y Ramil dice que la evoluci&oacute;n<br />del software es &ldquo;todas las actividades de programaci&oacute;n que se<br />orientan a generar una nueva versi&oacute;n de un so-ware a partir de<br />una versi&oacute;n anterior operativa.</p>
+<p><strong>La evoluci&oacute;n del software (contin&uacute;a)</strong><br />-Ned Chapin 1(1999) lo defini&oacute; como &ldquo;la aplicaci&oacute;n de las<br />ac7vidades y procesos de mantenimiento del so-ware que<br />generan una nueva versi&oacute;n operativa de un software con una<br />funcionalidad de usuario o propiedades cambiadas a partir de<br />una versi&oacute;n anterior [&hellip;] junto con los procesos y actividades de<br />garantia de calidad y con la gesti&oacute;n de esos procesos&rdquo;. De estas<br />definiciones se desprende que la evoluci&oacute;n cubre el ajuste a<br />funcionalidades adicionales.<br />-La gu&iacute;a SWEBOK2 considera que la causa del mantenimiento<br />est&aacute; tanto en la necesidad de &ldquo;cambios&rdquo; como de &ldquo;evoluci&oacute;n&rdquo;<br />en el software.</p>
+<p><strong>La crisis del software:</strong><br />&iquest;C&oacute;mo se define crisis?<br />-La palabra crisis se define en el diccionario como "un punto<br />decisivo en el curso de algo; momento, etapa, o evento decisivo<br />o crucial". Sin embargo para el software no ha habido ning&uacute;n<br />punto crucial, s&oacute;lo una lenta evoluci&oacute;n.<br />-La crisis en la industria del software permanece durante<br />muchos a&ntilde;os, lo cual parece una contradicci&oacute;n para el t&eacute;rmino.<br />Lo que si se podr&iacute;a decir es que hay un problema cr&oacute;nico en el<br />desarrollo de software.</p>
+<p><strong>La crisis del software (contin&uacute;a)</strong><br />-Formalismo y metodolog&iacute;a<br />-Herramientas de soporte<br />-Administraci&oacute;n eficaz</p>
+<p><strong>La crisis del software</strong><br />Actualmente est&aacute; surgiendo una gran expectativa ante la evoluci&oacute;n de<br />la Ingenier&iacute;a del Software, al ir apareciendo nuevos m&eacute;todos y herramientas<br />formales que van a permitir en el futuro un planteamiento de ingenier&iacute;a en<br />el proceso de elaboraci&oacute;n de software.<br />Dicho planteamiento permitir&aacute; dar respuesta a los problemas de:<br />- Administraci&oacute;n<br />- Calidad<br />- Productividad<br />- F&aacute;cil mantenimiento<br />Este &uacute;ltimo es uno de los grandes problemas, pues puede llegar a suponer<br />un importe superior al 60% del total del coste del software.</p>
+<p><strong>&iquest;Por qu&eacute; se crea la IS?</strong><br />-La ingenier&iacute;a de software se crea debido a las siguientes caracter&iacute;sticas:<br />-El producto debe ser confiable y realizar s&oacute;lo las tareas especificadas en los<br />requerimientos.<br />-El producto debe ser robusto. Esto quiere decir que el software se comporta<br />de manera razonable, incluso en circunstancias no anticipadas desde el<br />principio.<br />-El producto de software debe ser lo m&aacute;s reutilizable posible, de manera tal<br />que pueda ser incorporado en otro producto de software si se requiere.<br />-El producto de software debe ser eficiente en el uso de los recursos del<br />sistema.</p>
+<p><strong>&iquest;Por qu&eacute; se crea la IS? (contin&uacute;a)</strong><br />-Se requiere desarrollar el software en una manera que lo haga evolutivo,<br />de forma tal que se pueda agregar funcionalidad adicional sin efectos<br />perjudiciales.<br />-El producto de software debe cumplir con los requerimientos de<br />rendimiento especificados, es decir, debe cumplir algunas de las restricciones<br />relacionadas al rendimiento.<br />-El producto de software tendr&aacute; mayor valor si es portable, es decir que<br />puede trabajar bajo diferentes plataformas de software y ambientes<br />(hardware, sistemas operativos, etc.).<br />-El producto de software debe ser utilizable, es decir, el aprendizaje de su<br />uso debe ser los suficientemente sencillo por parte de personas no<br />especialistas.</p>
+<p><strong>El software en la actualidad:</strong><br />Las direcciones en las que evoluciona la ingenier&iacute;a del so-ware<br />hoy en d&iacute;a pueden agruparse de la siguiente manera:<br />-Metodolog&iacute;as &aacute;giles: m&eacute;todos de desarrollo de so-ware<br />basados en procesos itera7vos e incrementales, donde los<br />requisitos y soluciones evolucionan durante la colaboraci&oacute;n.<br />Metodolog&iacute;as como Scrum (1995), Extreme Programming<br />(1999) o DSDM (1995) fueron evolucionando hasta que en<br />Febrero del 2001 se public&oacute; &ldquo;Manifesto for Agile So-ware<br />Development&rdquo; para definir la aproximaci&oacute;n ahora conocida<br />como metodolog&iacute;as &aacute;giles.</p>
+<p><strong>El software en la actualidad (contin&uacute;a)</strong><br />-Experimentaci&oacute;n: es una rama de la ingenier&iacute;a del software<br />interesada en realizar experimentos sobre software, recolectar<br />datos y deducir leyes y teor&iacute;as de los mismos.<br />-Desarrollo dirigido por modelos: primero se desarrollan<br />modelos textuales gr&aacute;ficos del software a construir, y<br />posteriormente se construye el software.<br />-L&iacute;neas de productos software, en lugar de productos<br />individuales.</p><h3 class="mb-0">FACTORES DE CALIDAD DEL SOFTWARE</h3>
+<p>- Concepto de Calidad: Conjunto de propiedades y de caracter&iacute;sticas de un producto o servicio, que le confieren aptitud para satisfacer una necesidad expl&iacute;cita o impl&iacute;cita (ISO 8402).</p>
+<p>- Calidad del Software: Es el grado con el que un sistema, componente o proceso cumple los requerimientos especificados y las necesidades o expectativas del cliente o usuario.</p>
+<p>- Factores que determinan la calidad del software.</p>
+<p>- Se pueden clasificar en dos grandes grupos (Pressman):</p>
+<p>-Medidas Directas: La medida o medici&oacute;n decimos que es directa, cuando disponemos de un instrumento de medida que nos muestra un resultado (generalmente num&eacute;rico).</p>
+<p>-Medidas Indirectas: Cuando hablamos de sistemas inform&aacute;ticos no siempre es posible realizar una medida directa, porque no disponemos del instrumento adecuado que nos permita realizar esa medici&oacute;n</p>
+<h3 class="mb-0">M&Eacute;TRICAS DEL SOFTWARE</h3>
+<p>Son las que est&aacute;n relacionadas con el desarrollo del software como funcionalidad, complejidad, eficiencia.</p>
+<p>Entre las m&eacute;tricas del software tenemos las siguientes:</p>
+<p>1. M&eacute;tricas t&eacute;cnicas: Se centran en las caracter&iacute;sticas del software. Aqu&iacute; medimos la complejidad l&oacute;gica y el grado de modularidad del sistema. Mide la estructura del sistema, el c&oacute;mo est&aacute; hecho.</p>
+<p>2. M&eacute;tricas de calidad: Son todas las m&eacute;tricas de software que definen de una u otra forma la calidad del software; tales como correcci&oacute;n, exactitud, integridad, facilidad de uso, estructuraci&oacute;n o modularidad, pruebas, facilidad de mantenimiento, reusabilidad, cohesi&oacute;n del m&oacute;dulo, acoplamiento del m&oacute;dulo, etc.</p>
+<p>Estas son los puntos cr&iacute;ticos en el dise&ntilde;o, codificaci&oacute;n, pruebas y mantenimiento.</p>
+<p>Proporcionan una indicaci&oacute;n de c&oacute;mo se ajusta el software a los requisitos impl&iacute;citos y expl&iacute;citos del cliente. Es decir c&oacute;mo voy a medir para que mi sistema se adapte a los requisitos que me pide el cliente.</p>
+<p>- Correcci&oacute;n: es el grado en que el software desempe&ntilde;a la funci&oacute;n para la que fue creado y se mide en defectos por KLDC.</p>
+<p>- Facilidad de Mantenimiento: es la sencillez con que un programa puede corregirse si se encuentra un error, al adaptarse si su entorno cambio o mejorar si el cliente cambia los requisitos y se mide en forma indirecta en TMC (Tiempo Medio de Cambio).</p>
+<p>- Integridad: es la habilidad de un sistema para resistir ataques que requiere la definici&oacute;n de amenaza y seguridad y se calcula: integridad = 1 &ndash; (amenaza * (1 &ndash; seguridad)).Proceso de Ingenier&iacute;a de software</p>
+<p>Por ejemplo, dados los siguientes valores de un paquete de base de datos en dos proyectos, podemos calcular la integridad.</p><img src="img/Screenshot_1.png" width="600" height="150"><p>- Soluci&oacute;n:</p>
+<p>-Integridad para el proyecto 1:</p>
+<p>__Integridad = 1 &ndash; 0.7 * (1 &ndash; 0) = 0.3</p>
+<p>-Integridad para el proyecto 2:</p>
+<p>__Integridad = 1 &ndash; 0.2 * (1 - 0.8) = 0.96</p>
+<p>- Si la amenaza (probabilidad de que un ataque ocurrir&aacute;) es 0.25, y la seguridad (posibilidad de repeler un ataque) es 0.95, la integridad del sistema es 0.99 (muy elevada).</p>
+<p>- Si por otra parte, la probabilidad de amenaza fuera 0.5 y la posibilidad de repeler un ataque es solo 0.25, la integridad del sistema es 0.63 (inaceptablemente baja).</p>
+<p>- Facilidad de uso: Es el intento por cuantificar la sencillez de una aplicaci&oacute;n al utilizarla.</p>
+<p>3. M&eacute;tricas de Productividad: Se centran en el rendimiento del proceso de la ingenier&iacute;a del software. Es decir qu&eacute; tan productivo va a ser el software que voy a dise&ntilde;ar. Se refiere a las caracter&iacute;sticas del software.</p>
+<p>4. M&eacute;tricas de costo: se centra en el costo total del sistema inform&aacute;tico.</p>
+<p>5. M&eacute;tricas orientadas al tama&ntilde;o: Esta nos permite conocer el tiempo en el que se terminar&aacute; el software y cu&aacute;ntas personas se necesitan para su desarrollo, aqu&iacute; medimos las variables con las que desarrollamos el software.</p>
+<p>Si una organizaci&oacute;n de software mantiene registros sencillos, se puede crear una tabla de datos orientados al tama&ntilde;o, como la que muestra la figura, que lista cada proyecto de desarrollo de software y las medidas correspondientes de cada proyecto</p><img src="img/Screenshot_2.png" width="600" height="150"><p>- Con los datos registrados durante la elaboraci&oacute;n del proyecto podemos generar al final de dicho proyecto el siguiente conjunto de m&eacute;tricas:</p>
+<p>-Productividad = KLDC /Esfuerzo</p>
+<p>-Calidad = Errores / LDC</p>
+<p>-Documentaci&oacute;n = Pp.doc./LDC</p>
+<p>-Costo = $(000)/LDC</p>
+<p>6. M&eacute;tricas orientadas a la funci&oacute;n o puntos de funci&oacute;n</p>
+<p>- Son medidas indirectas del software y del proceso por el cual se desarrolla. En lugar de calcular las l&iacute;neas de c&oacute;digo (LDC), las m&eacute;tricas de funci&oacute;n se centran en la funcionalidad o utilidad del programa. Los puntos de funci&oacute;n nos indican la medida de la productividad.</p>
+<p>- Los puntos de funci&oacute;n se obtienen utilizando una funci&oacute;n emp&iacute;rica basado en medidas cuantitativas del dominio de informaci&oacute;n del software y valoraciones subjetivas de la complejidad del software.</p>
+<h3 class="mb-0">PROBLEMAS EN EL DESARROLLO DE SOFTWARE</h3>
+<p>&iquest;Qu&eacute; es un proyecto software?</p>
+<p>Haciendo uso de la definici&oacute;n de proyecto de la gu&iacute;a del PMBOK, y adapt&aacute;ndola a un proyecto software, podr&iacute;amos definirlo como: &ldquo;Un proyecto software es un esfuerzo temporal que se lleva a cabo para crear un producto software, servicio TI o resultado &uacute;nico.&rdquo;</p>
+<p>&iquest;Pero que es el software?</p>
+<p>Seg&uacute;n la definici&oacute;n del IEEE, "software es la suma total de los programas de ordenador, procedimientos, reglas, la documentaci&oacute;n asociada y los datos que pertenecen a un sistema de c&oacute;mputo", y "un producto de software es un producto dise&ntilde;ado para un usuario".</p>
+<p>El software puede dividirse en dos grandes categor&iacute;as:</p>
+<p>-Software de aplicaciones: se usan para proveer servicios a clientes y ejecutar negocios de forma m&aacute;s eficiente. El software de aplicaciones puede ser un sistema peque&ntilde;o o uno grande integrado. Como ejemplos de este tipo de software estar&iacute;an un sistema de cuentas, un sistema de planificaci&oacute;n de recursos...</p>
+<p>-Software de sistemas: El software de sistemas se usa para operar y mantener un sistema inform&aacute;tico. Permite a los usuarios usar los recursos del ordenador directamente y a trav&eacute;s de otro software. Algunos ejemplos de este tipo de software son los sistemas operativos, compiladores y otras utilidades del sistema.</p>
+<p>Los proyectos software tienen caracter&iacute;sticas espec&iacute;ficas que los hacen diferentes de otros proyectos de ingenier&iacute;a.</p>
+<p>La Ingenier&iacute;a del Software es la rama de la ingenier&iacute;a que crea y mantiene las aplicaciones de software usando tecnolog&iacute;as y pr&aacute;cticas de las ciencias de la computaci&oacute;n, manejo de proyectos, ingenier&iacute;a, el &aacute;mbito de la aplicaci&oacute;n, y otros campos.</p>
+<p>&iquest;Por qu&eacute; el software es diferente a cualquier otro proceso de fabricaci&oacute;n? Podr&iacute;amos identificar los siguientes motivos:</p>
+<p>-El software se desarrolla, no se fabrica en el sentido cl&aacute;sico de la palabra. Ambas actividades se dirigen a la construcci&oacute;n de un "producto", pero los m&eacute;todos son diferentes. Los costes del software se encuentran en la ingenier&iacute;a, esto implica que los proyectos no se pueden gestionar como si lo fueran de fabricaci&oacute;n.</p>
+<p>-La juventud de la ingenier&iacute;a del software con respecto a otras ingenier&iacute;as, la mayor&iacute;a del software se construye a medida, en vez de ensamblar componentes previamente creados. Aunque ya se est&aacute;n dando importantes pasos en esta direcci&oacute;n, que facilitar&iacute;a en gran medida el desarrollo de aplicaciones inform&aacute;ticas.</p>
+<p>-En el software, el recurso principal son las personas. No es siempre posible acelerar la construcci&oacute;n de software a&ntilde;adiendo personas porque la construcci&oacute;n de software requiere un esfuerzo en equipo. El equipo tiene que trabajar de forma coordinada y compartir un objetivo de proyecto com&uacute;n. Se necesita comunicaci&oacute;n efectiva dentro del equipo.</p>
+<p>-El software no se estropea, pero se deteriora. Durante su vida, el software sufre cambios (mantenimiento). Conforme se hacen los cambios, es bastante probable que se introduzcan nuevos defectos, lo que hace que el software se vaya deteriorando debido a estos cambios.</p>
+<h3 class="mb-0">VISI&Oacute;N GENERAL DEL PROCESO DE INGENIER&Iacute;A DEL SOFTWARE</h3>
+<div class="subheading mb-3">DESARROLLO</div>
+<p>&iquest;C&oacute;mo construir el sistema?</p>
+<p>* Se dise&ntilde;an las estructuras de los datos y los programas.</p>
+<p>-Como se caracterizan las interfaces.</p>
+<p>-Como realizar el paso del dise&ntilde;o al lenguaje de programaci&oacute;n.</p>
+<p>-Como ha de realizarse la prueba.</p>
+<p>* Se escriben y documentan los programas.</p>
+<p>* Y se prueba el software construido.</p>
+<div class="subheading mb-3">MANTENIMIENTO</div>
+<p>* Comienza una vez construido el sistema.</p>
+<p>* Se centra en el cambio.</p>
+<p>* El software es sometido a reparaciones y modificaciones cada vez que se detecta un fallo o se necesita cubrir una nueva necesidad de los usuarios.</p>
+<p>* En esta fase recae el mayor porcentaje del costo de un sistema.</p>
+<p>* Un buen sistema no es s&oacute;lo un conjunto de programas que funcionan bien =&gt; Debe ser f&aacute;cil de mantener</p>
+<p>Tipos de mantenimiento.</p>
+<p>-Correctivo. El programa no funciona correctamente, hay que modificarlo.</p>
+<p>-Perfectivo. Se modifica el programa para obtener m&aacute;s eficiencia o nuevas funcionalidades no especificadas en la definici&oacute;n del sistema.</p>
+<p>-Adaptativo. Adaptar el programa a los cambios en su entorno (cambio de SO, de CPU, de legislaci&oacute;n, &hellip;)</p>
+<p>-Preventivo. El software se deteriora con los cambios, este mantenimiento hace cambios para que los programas se puedan corregir, adaptar y mejorar m&aacute;s r&aacute;pidamente -&gt; Reingenier&iacute;a del SW.</p><img src="img/Screenshot_3.png" width="761" height="346"><h3 class="mb-0">ESPONSABILIDAD &Eacute;TICA Y PROFESIONAL EN INGENIER&Iacute;A DEL SOFTWARE</h3>
+<p>La IS se realiza dentro de un marco social y legal que limita la libertad de la gente que trabaja en dicha &aacute;rea.</p>
+<p>Los ingenieros de software:</p>
+<p>- Deben aceptar que su labor implica responsabilidades mayores que la simple aplicaci&oacute;n de habilidades t&eacute;cnicas.</p>
+<p>- Deben comportarse de forma &eacute;tica y moralmente responsable para ser respetado como un ingeniero profesional.</p>
+<p>Existen &aacute;reas donde los est&aacute;ndares de comportamiento aceptable no est&aacute;n acotados por las leyes, sino por la responsabilidad profesional, algunas de estas son:</p>
+<p>- Confidencialidad. Respetar la confidencialidad de sus empleadores o clientes, independientemente de que se haya firmado un acuerdo formal de confidencialidad.</p>
+<p>- Competencia. No debe falsificar su nivel de competencia, ni aceptar conscientemente trabajos que est&aacute;n fuera de su capacidad.</p>
+<p>- Derechos de propiedad intelectual. Debe ser consciente de las leyes locales que gobiernan el uso de la propiedad intelectual, como las patentes el el copyright. Debe asegurarse de que la propiedad intelectual de los empleadores y clientes est&aacute; protegida.</p>
+<p>- Uso inapropiado de las computadoras. No debe emplear sus habilidades t&eacute;cnicas para utilizar de forma inapropiada las computadoras de otras personas. Desde los relativamente triviales (utilizar juegos en las maquina de un empleado, por ejemplo) hasta los extremadamente serios (difusi&oacute;n de virus).</p>
+<h3 class="mb-0">C&Oacute;DIGO DE &Eacute;TICA (ACM/IEEE)</h3>
+<p>Los ingenieros de software deber&aacute;n comprometerse consigo mismo en convertir el an&aacute;lisis, especificaci&oacute;n, dise&ntilde;o, desarrollo, prueba y mantenimiento de software en una profesi&oacute;n respetable y beneficiosa.</p>
+<p>De acuerdo con su compromiso con la salud, seguridad y bienestar del p&uacute;blico, los ingenieros de software deber&aacute;n apegarse a ocho principios.</p>
+<div class="subheading mb-3">PRINCIPIOS DEL C&Oacute;DIGO</div>
+<p>P&uacute;blico.- Los ingenieros de software deber&aacute;n actuar consistentemente con el inter&eacute;s p&uacute;blico.</p>
+<p>Cliente y Empleador.- Los ingenieros de software deber&aacute;n actuar de una forma determinada que est&eacute; en los mejores intereses de su cliente y empleador consistente con el inter&eacute;s p&uacute;blico.</p>
+<p>Producto.- Los ingenieros de software deber&aacute;n asegurar que sus productos y modificaciones relacionadas logren el m&aacute;s alto est&aacute;ndar profesional posible.</p>
+<p>Juicio.- Los ingenieros de software deber&aacute;n mantener integridad e independencia al emitir su juicio profesional.</p>
+<p>Gerencia.- Los gerentes y lideres de ingenier&iacute;a de software deber&aacute;n suscribirse y promocionar un enfoque &eacute;tico para la gerencia de desarrollo y mantenimiento del software.</p>
+<p>Profesi&oacute;n.- Los ingenieros de software deber&aacute;n fomentar la integridad y reputaci&oacute;n de la profesi&oacute;n consistente con el inter&eacute;s p&uacute;blico.</p>
+<p>Colegas.- Los ingenieros de software deber&aacute;n ser justos y comprensivos con sus colegas.</p>
+<p>Inter&eacute;s Propio. Los ingenieros de software deber&aacute;n participar en el aprendizaje de por vida del ejercicio de su profesi&oacute;n y deber&aacute;n promover un enfoque &eacute;tico para el ejercicio de la misma.</p><div class="subheading mb-3">&nbsp;</div>
+<div class="subheading mb-3">CONCEPTO</div>
+<p>Un sistema de informaci&oacute;n es un conjunto de elementos interrelacionados con el prop&oacute;sito de prestar atenci&oacute;n a las demandas de informaci&oacute;n de una organizaci&oacute;n, para elevar el nivel de conocimientos que permitan un mejor apoyo a la toma de decisiones y desarrollo de acciones (Pe&ntilde;a, 2006).</p>
+<p>Conjunto de elementos que interact&uacute;an entre s&iacute; con el fin de apoyar las actividades de una empresa o negocio. Teniendo muy en cuenta el equipo computacional necesario para que el sistema de informaci&oacute;n pueda operar y el recurso humano que interact&uacute;a con el Sistema de Informaci&oacute;n, el cual est&aacute; formado por las personas que utilizan el sistema.</p>
+<p>Un sistema de informaci&oacute;n realiza cuatro actividades b&aacute;sicas:&nbsp;entrada, almacenamiento, procesamiento y salida de informaci&oacute;n (Peralta, 2008).</p>
+<p>-Entrada de Informaci&oacute;n: Es el proceso mediante el cual el Sistema de Informaci&oacute;n toma los datos que requiere para procesar la informaci&oacute;n.</p>
+<p>-Almacenamiento de informaci&oacute;n: El almacenamiento es una de las actividades o capacidades m&aacute;s importantes que tiene una computadora, ya que a trav&eacute;s de esta propiedad el sistema puede recordar la informaci&oacute;n guardada en la secci&oacute;n o proceso anterior.</p>
+<p>-Procesamiento de Informaci&oacute;n: Es la capacidad del Sistema de Informaci&oacute;n para efectuar c&aacute;lculos de acuerdo con una secuencia de operaciones preestablecida.&nbsp;</p>
+<p>-Salida de Informaci&oacute;n: La salida es la capacidad de un Sistema de Informaci&oacute;n para sacar la informaci&oacute;n procesada o bien datos de entrada al exterior.&nbsp;</p>
+<p>Otro autor define que:&nbsp;Un sistema de informaci&oacute;n es el sistema de personas, registros de datos y actividades que procesa los datos y la informaci&oacute;n en cierta organizaci&oacute;n, incluyendo manuales de procesos o procesos automatizados.&nbsp;(s/a, 2008).</p>
+<h3 class="mb-0">TIPOS DE SISTEMAS DE INFORMACI&Oacute;N</h3>
+<p>Los sistemas de informaci&oacute;n, de manera general se pueden clasificar de tres formas seg&uacute;n sus prop&oacute;sitos generales, en este sentido Peralta (2008) clasifica los sistemas de informaci&oacute;n en tres tipos fundamentales: (1) Sistemas transaccionales; (2) Sistemas de Soporte a la Toma de Decisiones, Sistemas para la Toma de Decisi&oacute;n de Grupo, Sistemas Expertos de Soporte a la Toma de Decisiones y Sistema de Informaci&oacute;n para Ejecutivos y (3) Sistemas estrat&eacute;gicos.</p>
+<p>&bull; Sistemas transaccionales: Son Sistemas de Informaci&oacute;n que logran la automatizaci&oacute;n de procesos operativos dentro de una organizaci&oacute;n ya que su funci&oacute;n primordial consiste en procesar transacciones tales como pagos, cobros, entradas, salidas, etc.</p>
+<p>&bull; Sistemas de Soporte a la Toma de Decisiones, Sistemas para la Toma de Decisi&oacute;n de Grupo, Sistemas Expertos de Soporte a la Toma de Decisiones y Sistema de Informaci&oacute;n para Ejecutivos: Son Sistemas de Informaci&oacute;n que apoyan el proceso de toma de decisiones.</p>
+<p>&bull; Sistemas Estrat&eacute;gicos: Son sistemas de informaci&oacute;n desarrollado en las organizaciones con el fin de lograr ventajas competitivas, a trav&eacute;s del uso de la tecnolog&iacute;a de informaci&oacute;n.</p>
+<p>En dependencia del enfoque (tres en total), seg&uacute;n reporta Pe&ntilde;a (2006), los sistemas de informaci&oacute;n se pueden agrupar en una cierta clasificaci&oacute;n, que brinda una idea esencial de su estructura y funcionamiento.</p>
+<p>De acuerdo al elemento principal de proceso de la informaci&oacute;n, los sistemas de informaci&oacute;n pueden ser de tres tipos (Manual, Mecanizadas y Bath):</p>
+<p>&bull; Manuales: cuando el hombre auxiliado por cierto equipo (m&aacute;quinas de escribir, sumadoras, archivos, etc.) realiza las principales funciones de recopilaci&oacute;n, registro, almacenamiento, c&aacute;lculo y generaci&oacute;n de informaci&oacute;n.</p>
+<p>&bull; Mecanizadas: cuando cierta maquinaria realiza las principales funciones de procesamiento. Para los sistemas mecanizados que hacen uso de un computador, de acuerdo al tipo de interacci&oacute;n Hombre-M&aacute;quina, los sistemas de informaci&oacute;n pueden ser de dos tipos (Batch y en L&iacute;nea]:</p>
+<p>-Batch: el usuario proporciona los datos necesarios para la ejecuci&oacute;n de un proceso y espera a que el computador termine la tarea para recibir los resultados;</p>
+<p>-En L&iacute;nea: existe un di&aacute;logo directo entre el usuario y el computador durante la ejecuci&oacute;n de un proceso.</p>
+<p>En cuanto a la organizaci&oacute;n f&iacute;sica de los principales recursos de procesamiento de datos, los sistemas de informaci&oacute;n pueden ser de tipo:</p>
+<p>&bull; Procesos centralizados: los recursos se encuentran ubicados en un &aacute;rea f&iacute;sica determinada, por lo que su acceso se realiza en las misma instalaci&oacute;n o desde lugares retirados, mediante l&iacute;neas de comunicaci&oacute;n de datos (telef&oacute;nicas, microondas, sat&eacute;lite, etc.).</p>
+<p>&bull; Proceso distribuido: los recursos se encuentran diseminados en diversos lugares de una zona territorial (ciudad, pa&iacute;s, continente, etc.), por lo que el procesamiento se realiza en el propio lugar donde se originan los datos, existiendo la posibilidad de compartir informaci&oacute;n entre las diversas instalaciones, mediante la informaci&oacute;n de una &ldquo;Red de Comunicaci&oacute;n&rdquo;.</p>
+<h3 class="mb-0">ELEMENTOS DE UN SISTEMA DE INFORMACI&Oacute;N</h3>
+<p>Los sistemas de informaci&oacute;n, seg&uacute;n Pe&ntilde;a (2006), tienen 5 elementos importantes, estos son:</p>
+<p>&bull; Financieros</p>
+<p>&bull; Administrativos</p>
+<p>&bull; Humanos</p>
+<p>&bull; Materiales</p>
+<p>&bull; Tecnol&oacute;gicos</p>
+<p>Sin embargo otro autor (s/a, 2008a) menciona que un sistema de informaci&oacute;n consiste en 3 elementos:&nbsp;humano, tecnolog&iacute;a y organizaci&oacute;n. En teor&iacute;a de sistemas, un sistema de informaci&oacute;n es un sistema automatizado o manual que involucra personas, m&aacute;quinas y/o m&eacute;todos organizados de recolecci&oacute;n, procesos, transmisi&oacute;n, clasificaci&oacute;n y divulgaci&oacute;n de datos.</p>
+<p>Otro autor desconocido (s/a, 2008b) plantea que un sistema de informaci&oacute;n est&aacute; compuesto por 6 elementos claramente identificables, tal y como se muestran en la siguiente figura:</p><img src="img/Screenshot_4.png" width="888" height="382"><p>- Base de Datos: Es donde se almacena toda la informaci&oacute;n que se requiere para la toma de decisiones. La informaci&oacute;n se organiza en registros espec&iacute;ficos e identificables;</p>
+<p>- Transacciones: Corresponde a todos los elementos de interfaz que permiten al usuario: consultar, agregar, modificar o eliminar un registro espec&iacute;fico de Informaci&oacute;n;</p>
+<p>- Informes: Corresponden a todos los elementos de interfaz mediante los cuales el usuario puede obtener uno o m&aacute;s registros y/o informaci&oacute;n de tipo estad&iacute;stico (contar, sumar) de acuerdo a criterios de b&uacute;squeda y selecci&oacute;n definidos.</p>
+<p>Los restantes elementos de un sistema de informaci&oacute;n son:</p>
+<p>- Procesos: Corresponden a todos aquellos elementos que, de acuerdo a una l&oacute;gica predefinida, obtienen informaci&oacute;n de la base de datos y generan nuevos registros de informaci&oacute;n. Los procesos s&oacute;lo son controlados por el usuario (de ahi que aparezca en l&iacute;nea de puntos);</p>
+<p>- Usuario: Identifica a todas las personas que interact&uacute;an con el sistema, esto incluye desde el m&aacute;ximo nivel ejecutivo que recibe los informes de estad&iacute;sticas procesadas, hasta el usuario operativo que se encarga de recolectar e ingresar la informaci&oacute;n al sistema y</p>
+<p>- Procedimientos Administrativos: Corresponde al conjunto de reglas y pol&iacute;ticas de la organizaci&oacute;n, que rigen el comportamiento de los usuarios frente al sistema. Particularmente, debieran asegurar que nunca, bajo ninguna circunstancia un usuario tenga acceso directo a la Base de Datos.</p>
+</div>
+</div>
+</div>
+</section>
+<hr class="m-0" />
+<section id="skills" class="resume-section p-3 p-lg-5 d-flex align-items-center">
+<div class="w-100">
+<h2 class="mb-5">PROCESO DEL SOFTWARE</h2>
+<h3 class="mb-0">EL PROCESO DEL SOFTWARE</h3>
+<p>- Conjunto de actividades necesarias para transformar las ideas iniciales del usuario, que desea automatizar un determinado trabajo, en software.</p>
+<p>- Conjunto ordenado de actividades; una serie de pasos que involucran tareas, restricciones y recursos que producen una determinada salida esperada.</p>
+<p>- Marco de trabajo de las tareas que se requieren para construir software de alta calidad.</p>
+<p>- Un conjunto estructurado de actividades necesarias para desarrollar un sistema de software.</p>
+<p>Muchos de los procesos de software son diferentes, pero todos implican:</p>
+<p>-Especificaci&oacute;n;</p>
+<p>-Dise&ntilde;o e implementaci&oacute;n;</p>
+<p>-Validaci&oacute;n;</p>
+<p>-Evoluci&oacute;n.</p>
+<h3 class="mb-0">CARACTER&Iacute;STICAS DEL PROCESO DE SW</h3>
+<p>Cualquier proceso tiene las siguientes caracter&iacute;sticas:</p>
+<p>- El proceso establece todas las actividades principales.</p>
+<p>- El proceso utiliza recursos, est&aacute; sujeto a una serie de restricciones y genera productos intermedios y finales</p>
+<p>- El proceso puede estar compuesto de subprocesos que se encadenan de alguna manera. Puede definirse como una jerarqu&iacute;a de procesos organizada de modo que cada subproceso tenga su propio modelo de proceso</p>
+<p>- Cada actividad del proceso tiene criterios de entrada y de salida, de modo que se conoce cu&aacute;ndo comienza y cu&aacute;ndo termina una actividad.</p>
+<p>- Las actividades se organizan en secuencia de modo que resulta claro cuando una actividad se realiza en orden relativo a otras actividades.</p>
+<p>- Todo proceso tiene un conjunto de principios orientadores que explican las metas de cada actividad.</p>
+<p>- Las restricciones o controles pueden aplicarse a una actividad, recurso o producto</p>
+<h3 class="mb-0">OTRAS CARACTER&Iacute;STICAS DEL PROCESO DE SW</h3>
+<p>- Comprensi&oacute;n</p>
+<p>-Est&aacute; definido y es comprensible</p>
+<p>- Visibilidad</p>
+<p>-Se visualizan los progresos externamente</p>
+<p>*Soporte</p>
+<p>-Est&aacute; soportado por herramientas CASE</p>
+<p>*Aceptaci&oacute;n</p>
+<p>-Es aceptable para todos los actores implicados</p>
+<p>*Confianza</p>
+<p>-Los errores del proceso se detectan antes de que se produzcan errores en el producto</p>
+<p>*Robustez</p>
+<p>-Se puede continuar a pesar de problemas inesperados</p>
+<p>*Capacidad de mantenimiento</p>
+<p>-Puede ajustarse a las necesidades de cambio de la organizaci&oacute;n</p>
+<p>* Rapidez</p>
+<p>-Con qu&eacute; &ldquo;velocidad&rdquo; se producen los sistemas</p>
+<p>*Adaptaci&oacute;n</p>
+<p>-Capacidad que tiene un usuario del mismo de adaptarlo a sus necesidades</p>
+<h3 class="mb-0">IMPORTANCIA DEL PROCESO DE SW</h3>
+<p>Un proceso software debe especificar:</p>
+<p>* La secuencia de actividades a realizar por el equipo de desarrollo</p>
+<p>-Flujo de actividades</p>
+<p>* Los productos que deben crearse</p>
+<p>-Resultados del trabajo (modelos, documentos, datos informes...)</p>
+<p>- Qu&eacute; y cu&aacute;ndo</p>
+<p>*La asignaci&oacute;n de tareas a cada miembro del equipo y al equipo como un todo</p>
+<p>-Los criterios para controlar el proceso</p>
+<p>- Se establece el control de gesti&oacute;n de los proyectos software</p>
+<p>- Establecimiento de hitos</p>
+<p>Las posibles heur&iacute;sticas</p>
+<p>- Facilita la gesti&oacute;n del proyecto</p>
+<p>- Establece una divisi&oacute;n del trabajo</p>
+<p>* Facilita la comunicaci&oacute;n de los miembros del equipo</p>
+<p>-Permite la reasignaci&oacute;n y la reutilizaci&oacute;n de personal especializado</p>
+<p>-Transferencia entre proyectos</p>
+<p>* Mejora la productividad y el desarrollo</p>
+<p>-El desarrollo es reproducible</p>
+<p>* Establece el contexto en el que se aplican los m&eacute;todos t&eacute;cnicos</p>
+<p>* Gestiona el cambio adecuadamente</p>
+<p>* Asegura la calidad</p>
+<h2 class="mb-5">EST&Aacute;NDARES RELACIONADOS CON EL PROCESO DE SW</h2>
+<h3 class="mb-0">EST&Aacute;NDAR ISO/IEC/IEEE 12207:2017</h3>
+<p>- El est&aacute;ndar ISO/IEC/IEEE 12207:2017 [ISO/IEC/IEEE, 2017] relativo a los procesos del ciclo de vida del software</p>
+<p>- Se aplica a la adquisici&oacute;n de sistemas de software, productos y servicios, al suministro, desarrollo, operaci&oacute;n, mantenimiento y eliminaci&oacute;n de productos de software o componentes de software de cualquier sistema, ya sea que se realice interna o externamente a una organizaci&oacute;n.</p>
+<p>- Se incluyen aquellos aspectos de la definici&oacute;n del sistema necesarios para proporcionar el contexto de los productos y servicios de software.</p>
+<p>- Tambi&eacute;n proporciona procesos que pueden emplearse para definir, controlar y mejorar los procesos del ciclo de vida del software dentro de una organizaci&oacute;n o de un proyecto.</p>
+<p>- Esta norma no fomenta o especifica ning&uacute;n modelo concreto de ciclo de vida, gesti&oacute;n del software o m&eacute;todo de ingenier&iacute;a, ni prescribe c&oacute;mo realizar ninguna de las actividades.</p><img src="img/Screenshot_5.png" width="586" height="748"><h2 class="mb-5">CICLO DE VIDA DEL SW</h2>
+<p>* Cuando un proceso implica la construcci&oacute;n de alg&uacute;n producto, suele referirse al proceso como un ciclo de vida</p>
+<p>-El proceso de desarrollo de software suele denominarse ciclo de vida del software</p>
+<p>* La evoluci&oacute;n del software representa el ciclo de ac7vidades involucradas en el desarrollo, uso y mantenimiento de sistemas software [Scacchi, 1987].</p>
+<p>* Los proyectos software se desarrollan en una serie de fases.</p>
+<p>-Van desde la concepci&oacute;n del software y su desarrollo inicial hasta su puesta en funcionamiento y posterior retirada por otra nueva generaci&oacute;n de software</p>
+<p>Estas fases pueden ser:</p>
+<p>-Temporales.- Forman una secuencia en el tiempo</p>
+<p>-L&oacute;gicas.- Cuando representan pasos o etapas que no constituyen una secuencia temporal</p>
+<p>Se puede definir ciclo de vida del software como:</p>
+<p>-Las distintas fases por las que pasa el software desde que nace una necesidad de mecanizar un proceso hasta que deja de utilizarse el software que sirvi&oacute; para ese objetivo, pasando por las fases de desarrollo y explotaci&oacute;n [Frakes et al., 1991]</p>
+<p>-El per&iacute;odo de tiempo que comienza cuando se concibe un producto software y finaliza cuando el producto pierde su utilidad. El ciclo de vida del software incluye las siguientes fases: fase de requisitos, fase de dise&ntilde;o, fase de realizaci&oacute;n, fase de pruebas, fase de instalaci&oacute;n y aceptaci&oacute;n, fase de operaci&oacute;n y mantenimiento y, algunas veces, fase de retirada [AECC, 1986]</p>
+<p>-Un marco de referencia que contiene los procesos, las actividades y las tareas involucradas en el desarrollo, la explotaci&oacute;n y el mantenimiento de un producto de software, abarcando la vida del sistema desde la definici&oacute;n de requisitos hasta la finalizaci&oacute;n de su uso [ISO/IEC, 2008]</p>
+<p>-Una aproximaci&oacute;n l&oacute;gica a la adquisici&oacute;n, el suministro, el desarrollo, la explotaci&oacute;n y el mantenimiento del software IEEE Std 1074-1997 Standard for Developing Software Life Cycle Processes [IEEE, 1999b]</p>
+<p>-El ciclo de vida del software consiste de las siguientes fases: an&aacute;lisis de requisitos, dise&ntilde;o, implementaci&oacute;n, prueba y mantenimiento. El proceso de desarrollo tiende a una iteraci&oacute;n de estas fases m&aacute;s que a un proceso lineal [CERN, 1996].</p>
+<p>-El ciclo de vida del software usa el modelo de que un elemento software tiene vida. Un elemento software tiene una fase de concepci&oacute;n (una idea en una mente de un usuario potencial), despu&eacute;s de una fase de gestaci&oacute;n (la fase de desarrollo del software) hacia una fase de madurez (la revisi&oacute;n y correcci&oacute;n de errores, o fase de mantenimiento), y finalmente la fase de retirada [Leaney, 2004]</p>
+<p>Se puede definir ciclo de desarrollo del software como:</p>
+<p>-El per&iacute;odo de tiempo que comienza con la decisi&oacute;n de desarrollar un producto software y finaliza cuando se ha entregado &eacute;ste. Este ciclo incluye, en general, una fase de requisitos, una fase de dise&ntilde;o, una fase de implantaci&oacute;n, una fase de pruebas, y a veces, una fase de instalaci&oacute;n y aceptaci&oacute;n [AECC, 1986]</p>
+<h3 class="mb-0">&Aacute;MBITO GENERAL DEL CICLO DE VIDA DEL SW</h3>
+<p>Desde un punto de vista general puede considerarse que el ciclo de vida de un software tiene tres etapas claramente diferenciadas:</p>
+<p>- Planificaci&oacute;n: idearemos un planeamiento detallado que gu&iacute;e la gesti&oacute;n del proyecto, temporal y econ&oacute;micamente.</p>
+<p>- Implementaci&oacute;n: acordaremos el conjunto de actividades que componen la realizaci&oacute;n del producto.</p>
+<p>- Puesta en producci&oacute;n: nuestro proyecto entra en la etapa de definici&oacute;n, all&iacute; donde se lo presentamos al cliente o usuario final, sabiendo que funciona correctamente y responde a los requerimientos solicitados en su momento. Esta etapa es muy importante no s&oacute;lo por representar la aceptaci&oacute;n o no del proyecto por parte del cliente o usuario final sino por las m&uacute;ltiples dificultades que suele presentar en la pr&aacute;ctica, alarg&aacute;ndose excesivamente y provocando costos no previstos.</p>
+<h3 class="mb-0">OBJETIVOS DE CADA ETAPA</h3>
+<p>En cada una de las etapas de un modelo de ciclo de vida, se pueden establecer una serie de objetivos, tareas y actividades que lo caracterizan.</p>
+<p>- Expresi&oacute;n de necesidades: esta etapa tiene como objetivo el armado de un documento en el cual se reflejan los requerimientos y funcionalidades que ofrecer&aacute; al usuario el sistema a implementar (qu&eacute;, y no c&oacute;mo, se va a implementar).</p>
+<p>- Especificaciones: formalizamos los requerimientos; el documento obtenido en la etapa anterior se tomar&aacute; como punto de partida para esta etapa.</p>
+<p>- An&aacute;lisis: determinamos los elementos que intervienen en el sistema a desarrollar, su estructura, relaciones, evoluci&oacute;n temporal, funcionalidades, tendremos una descripci&oacute;n clara de qu&eacute; producto vamos a construir, qu&eacute; funcionalidades aportar&aacute; y qu&eacute; comportamiento tendr&aacute;.</p>
+<p>- Dise&ntilde;o: ya sabemos qu&eacute; hacer, ahora tenemos que determinar c&oacute;mo debemos hacerlo (&iquest;c&oacute;mo debe ser construido el sistema en cuesti&oacute;n?; definimos en detalle entidades y relaciones de las bases de datos, seleccionamos el lenguaje que vamos a utilizar, el Sistema Gestor de Bases de Datos, etc.).</p>
+<p>- Implementaci&oacute;n: empezamos a codificar algoritmos y estructuras de datos, definidos en las etapas anteriores, en el correspondiente lenguaje de programaci&oacute;n o para un determinado sistema gestor de bases de datos. En muchos proyectos se pasa directamente a esta etapa; son proyectos muy arriesgados que adoptan un modelo de ciclo de vida de code &amp; fix (codificar y corregir) donde se eliminan las etapas de especificaciones, an&aacute;lisis y dise&ntilde;o con la consiguiente p&eacute;rdida de control sobre la gesti&oacute;n del proyecto.</p>
+<p>- Debugging: el objetivo de esta etapa es garantizar que nuestro programa no contiene errores de dise&ntilde;o o codificaci&oacute;n. En esta etapa no deseamos saber si nuestro programa realiza lo que solicit&oacute; el usuario, esa tarea le corresponde a la etapa de implementaci&oacute;n. En &eacute;sta deseamos encontrar la mayor cantidad de errores. Todos los programas contienen errores: encontrarlos es cuesti&oacute;n de tiempo. Lo ideal es encontrar la mayor&iacute;a, si no todos, en esta etapa. Tambi&eacute;n se pueden agregar testeos de performance.</p>
+<p>- Validaci&oacute;n: esta etapa tiene como objetivo la verificaci&oacute;n de que el sistema desarrollado cumple con los requerimientos expresados inicialmente por el cliente y que han dado lugar al presente proyecto. En muchos proyectos las etapas de validaci&oacute;n y debugging se realizan en paralelo por la estrecha relaci&oacute;n que llevan. Sin embargo, tenemos que evitar la confusi&oacute;n: podemos realizarlos en paralelo, pero no como una &uacute;nica etapa.</p>
+<p>- Evoluci&oacute;n: en la mayor&iacute;a de los proyectos se considera esta etapa como Mantenimiento y evoluci&oacute;n, y se le asigna, no s&oacute;lo el agregado de nuevas funcionalidades (evoluci&oacute;n); sino la correcci&oacute;n de errores que surgen (mantenimiento). En la pr&aacute;ctica esta denominaci&oacute;n no es del todo err&oacute;nea, ya que es posible que aun luego de una etapa de debugging y validaci&oacute;n exhaustiva, se filtren errores.</p>
+<h3 class="mb-0">&iquest;MODELO DE PROCESO DE SW?</h3>
+<p>Hay varios modelos de procesos definidos en la bibliograf&iacute;a de Ingenier&iacute;a del Software</p>
+<p>Cada modelo de proceso representa un proceso desde una perspectiva particular, por lo que s&oacute;lo ofrece una informaci&oacute;n parcial sobre dicho proceso.</p><h3 class="mb-0">&iquest;MODELO DE PROCESO DE SW?</h3>
+<p>Hay varios modelos de procesos definidos en la bibliograf&iacute;a de Ingenier&iacute;a del Software</p>
+<p>Cada modelo de proceso representa un proceso desde una perspectiva particular, por lo que s&oacute;lo ofrece una informaci&oacute;n parcial sobre dicho proceso.</p>
+<h3 class="mb-0">RAZONES PARA MODELAR UN PROCESO DE SW</h3>
+<p>* Cuando se pone por escrito una descripci&oacute;n de un proceso, se da forma a una comprensi&oacute;n com&uacute;n de las actividades, recursos y restricciones relacionados con el desarrollo del software.</p>
+<p>* Ayuda al equipo de desarrollo a encontrar las inconsistencias, las redundancias y las omisiones en el proceso y en las partes que lo constituyen.</p>
+<p>* El modelo debe reflejar las metas del desarrollo. A medida que se construye el modelo el equipo de desarrollo eval&uacute;a las actividades candidatas por su adecuaci&oacute;n para alcanzar dichas metas.</p>
+<p>* Ayuda al equipo de desarrollo a comprender d&oacute;nde debe adaptarse el proceso</p>
+<p>* Los modelos de proceso de desarrollo de software incluyen los requisitos del sistema como entrada y un producto entregado como salida</p>
+<h3 class="mb-0">MODELO GENERAL DE PROCESO EN INGENIER&Iacute;A</h3>
+<p>* Especificaci&oacute;n</p>
+<p>Formulaci&oacute;n de los requisitos y restricciones del sistema</p>
+<p>* Dise&ntilde;o</p>
+<p>Elaboraci&oacute;n de un documento con el modelo del sistema</p>
+<p>* Fabricaci&oacute;n</p>
+<p>Construcci&oacute;n del sistema</p>
+<p>* Prueba</p>
+<p>Comprobaci&oacute;n de que el sistema cumple las especificaciones requeridas</p>
+<p>* Instalaci&oacute;n</p>
+<p>Entrega del sistema al cliente y garant&iacute;a de que es operativo</p>
+<p>* Mantenimiento</p>
+<p>Reparaci&oacute;n de los fallos que aparecen en el sistema</p>
+<p>&nbsp;</p>
+<p>En el proceso de construcci&oacute;n de sistemas inform&aacute;ticos se pueden distinguir tres fases gen&eacute;ricas:</p>
+<p>* Fase de definici&oacute;n</p>
+<p>Se identifican los requisitos claves del sistema y del software</p>
+<p>Se desarrolla</p>
+<p>-Un An&aacute;lisis de Sistemas</p>
+<p>--Se define el papel de cada elemento en el sistema automatizado de informaci&oacute;n, incluyendo el que jugar&aacute; el software</p>
+<p>-Un An&aacute;lisis de Requisitos</p>
+<p>--Se especifican todos los requisitos de usuario que el sistema tiene que satisfacer</p>
+<p>--Esta fase est&aacute; orientada al QU&Eacute;</p>
+<p>---Qu&eacute; informaci&oacute;n ha de ser procesada, qu&eacute; funci&oacute;n y rendimiento se desea, qu&eacute; interfaces han de establecerse, qu&eacute; ligaduras de dise&ntilde;o existen y qu&eacute; criterios de validaci&oacute;n se necesitan para definir un sistema correcto</p>
+<p>Existe un paso complementario: la planificaci&oacute;n del proyecto software:</p>
+<p>-Se asignan los recursos</p>
+<p>-Se estiman los costos</p>
+<p>-Se planifican las tareas y el trabajo</p>
+<p>* Fase de desarrollo</p>
+<p>Fase orientada al C&Oacute;MO</p>
+<p>El primer paso de esta fase corresponde al Dise&ntilde;o del Software</p>
+<p>-Se trasladan los requisitos del software a un conjunto de representaciones que describen la estructura de datos, arquitectura del software y procedimientos algor&iacute;tmicos que permiten la construcci&oacute;n f&iacute;sica de dicho software.</p>
+<p>Los otros dos pasos de la fase de desarrollo corresponden a la Codificaci&oacute;n y a la Prueba del Software</p>
+<p>* Fase de mantenimiento</p>
+<p>-Mantenimiento correctivo</p>
+<p>--Correcci&oacute;n de errores</p>
+<p>-Mantenimiento adaptativo</p>
+<p>--Adaptaciones requeridas por la evoluci&oacute;n del entorno del software</p>
+<p>-Mantenimiento perfectivo</p>
+<p>--Las modificaciones debidas a los cambios de requisitos del usuario para mejorar el sistema</p>
+<p>-Mantenimiento preventivo</p>
+<p>--Mejora de las caracter&iacute;sticas internas del producto para hacer m&aacute;s mantenible</p><h2 class="mb-5">MODELO DE PROCESOS DE SOFTWARE</h2>
+<div class="subheading mb-3">EL MODELO DE CASCADA</div>
+<p>Modelo de Plan-impulsado. Fases separadas y distintas de especificaci&oacute;n y desarrollo.</p>
+<div class="subheading mb-3">EL DESARROLLO INCREMENTAL</div>
+<p>Especificaci&oacute;n, desarrollo y validaci&oacute;n se intercalan. Puede ser el plan impulsado o &aacute;gil.</p>
+<p>&nbsp;</p>
+<p>Ingenier&iacute;a de software orientado a reutilizaci&oacute;n</p>
+<p>-El sistema se ensambla a partir de componentes existentes. Puede ser el plan impulsado o &aacute;gil.</p>
+<p>En la pr&aacute;ctica, la mayor&iacute;a de los grandes sistemas se desarrollan mediante un proceso que incorpora elementos de todos estos modelos.</p>
+<h3 class="mb-0">MODELO CASCADA</h3><img src="img/cascada.png" width="577" height="305"><p>Las fases est&aacute;n identificadas por separado:</p>
+<p>&bull; El an&aacute;lisis y definici&oacute;n de requerimientos</p>
+<p>&bull; Dise&ntilde;o del sistema y software.</p>
+<p>&bull; Pruebas de implementaci&oacute;n de unidades</p>
+<p>&bull; Integraci&oacute;n y pruebas del sistema</p>
+<p>&bull; Operaci&oacute;n y mantenimiento</p>
+<p>El principal inconveniente del modelo de la cascada es la dificultad de acomodar el cambio despu&eacute;s de que est&aacute; en marcha el proceso. En principio, una fase tiene que ser completada antes de pasar a la siguiente fase.</p>
+<div class="subheading mb-3">PROBLEMAS DEL MODELO DE CASCADA:</div>
+<p>&bull; Inflexible divisi&oacute;n del proyecto en fases distintas hace que sea dif&iacute;cil responder a las necesidades cambiantes de los clientes.</p>
+<p>&bull; Por lo tanto, este modelo s&oacute;lo es apropiado cuando los requisitos son bien entendidos y los cambios ser&aacute;n bastante limitados durante el proceso de dise&ntilde;o.</p>
+<p>&bull; Pocos sistemas tienen requisitos estables.</p>
+<p>&bull; El modelo de cascada se utiliza sobre todo para los grandes proyectos de ingenier&iacute;a de sistemas en que un sistema se desarrolla en varios lugares</p><h3 class="mb-0">DESARROLLO INCREMENTAL</h3><img src="img/incremental.png" width="476" height="272"><div class="subheading mb-3">BENEFICIOS:</div>
+<p>&bull; El costo de atender las necesidades cambiantes de los clientes se reduce.</p>
+<p>--La cantidad de an&aacute;lisis y la documentaci&oacute;n que tiene que ser hecho de nuevo es mucho menor que la que se requiere con el modelo de cascada.</p>
+<p>&bull; Es m&aacute;s f&aacute;cil obtener retroalimentaci&oacute;n de los clientes en el trabajo de desarrollo que se ha hecho.</p>
+<p>--Los clientes pueden hacer comentarios sobre las manifestaciones del software y ver cu&aacute;nto se ha implementado.</p>
+<p>&bull; M&aacute;s r&aacute;pida entrega y despliegue de software de utilidad para el cliente es posible.</p>
+<p>--Los clientes pueden usar y obtener valor a partir del software anterior que es posible con un proceso de cascada.</p>
+<div class="subheading mb-3">PROBLEMAS:</div>
+<p>&bull; El proceso no es visible.</p>
+<p>--Los gerentes necesitan entregas regulares para medir el progreso. Si se desarrollan r&aacute;pidamente los sistemas, no es rentable para producir documentos que reflejen todas las versiones del sistema.</p>
+<p>&bull; Estructura del sistema tiende a degradarse a medida que se a&ntilde;aden nuevos incrementos.</p>
+<p>--A menos tiempo y dinero que se gasta en la refactorizaci&oacute;n para mejorar el software, cambio regular tiende a corromper su estructura. La incorporaci&oacute;n de nuevos cambios de software se vuelve cada vez m&aacute;s dif&iacute;cil y costoso.</p>
+<h3 class="mb-0">ESPIRAL</h3><img src="img/espiral.png" width="700" height="400"><div class="subheading mb-3">DEFINICI&Oacute;N:</div>
+<p>&bull; Es un modelo de ciclo de vida desarrollado por Barry Boehm en 1988.</p>
+<p>&bull; Las actividades de este modelo son una espiral, cada bucle es una actividad.</p>
+<p>&bull; Las actividades no est&aacute;n fijadas a prioridad, sino que las siguientes se eligen en funci&oacute;n del an&aacute;lisis de riesgo, comenzando por el bucle interior.</p>
+<p>&bull; En este modelo, el esfuerzo de desarrollo es iterativo. Tan pronto como uno completa un esfuerzo de desarrollo, otro comienza. Adem&aacute;s, en cada desarrollo ejecutado, puedes seguir estos cuatros pasos.</p>
+<p>1. Determinar qu&eacute; quieres lograr.</p>
+<p>2. Determinar las rutas alternativas que puedes tomar para lograr estas metas. Por cada una, analizar los riesgos y resultados finales, y seleccionar la mejor.</p>
+<p>3. Seguir la alternativa seleccionada en el paso 2.</p>
+<p>4. Establecer qu&eacute; tienes terminado.</p>
+<div class="subheading mb-3">PRINCIPIOS B&Aacute;SICOS:</div>
+<p>&bull; Decidir qu&eacute; problema se quiere resolver antes de viajar a resolverlo.</p>
+<p>&bull; Examinar tus m&uacute;ltiples alternativas de acci&oacute;n y elegir una de las m&aacute;s convenientes.</p>
+<p>&bull; Evaluar qu&eacute; tienes hecho y qu&eacute; tienes que haber aprendido despu&eacute;s de hacer algo.</p>
+<p>&bull; No ser tan ingenuo para pensar que el sistema que est&aacute;s construyendo ser&aacute; "EL" sistema que el cliente necesita, y</p>
+<p>&bull; Conocer (comprender) los niveles de riesgo, que tendr&aacute;s que tolerar.</p>
+<p>El Modelo Espiral mejora el Modelo de Cascada enfatizando la naturaleza iterativa del proceso de dise&ntilde;o. Eso introduce un ciclo de prototipo iterativo. En cada iteraci&oacute;n, las nuevas expresiones que son obtenidas transformando otras dadas son examinadas para ver si representan progresos hacia el objetivo.</p>
+<div class="subheading mb-3">ACTIVIDADES PRINCIPALES:</div>
+<p>PRIMER PASO. Identificaci&oacute;n de:</p>
+<p>&bull; Los objetivos de la parte del producto que est&aacute; siendo elaborada (rendimientos, funcionalidad, adaptaci&oacute;n al cambio, etc.).</p>
+<p>&bull; Las alternativas principales de la implementaci&oacute;n de esta porci&oacute;n del producto (usar el dise&ntilde;o A, usar el dise&ntilde;o B, reutilizar el m&oacute;dulo X de la aplicaci&oacute;n Z, comprar a un proveedor externo, etc.).</p>
+<p>&bull; Las restricciones impuestas para cada alternativa (costes, planificaciones, interfaces, etc.).</p>
+<p>SEGUNDO PASO</p>
+<p>&bull; Evaluar las diferentes alternativas que se plantean teniendo en cuenta los objetivos a conseguir y las restricciones impuestas. Frecuentemente, este paso identifica las &aacute;reas de incertidumbre del proyecto con sus correspondientes riesgos.</p>
+<p>&bull; Si existen riesgos, lo siguiente es la formulaci&oacute;n de una estrategia efectiva en coste (utilizando prototipos, simulaci&oacute;n, bancos de prueba, cuestionario para los usuarios, modelizaci&oacute;n anal&iacute;tica o combinaciones de &eacute;stas y otras t&eacute;cnicas de resoluci&oacute;n de riesgos) para resolver dichos riesgos.</p>
+<p>TERCER PASO. Consiste en desarrollar, verificar y validar (probar):</p>
+<p>&bull; Tareas de la actividad propia y de prueba.</p>
+<p>&bull; An&aacute;lisis de alternativas e identificaci&oacute;n resoluci&oacute;n de riesgos.</p>
+<p>&bull; Dependiendo del resultado de la evaluaci&oacute;n de los riesgos, se elige un modelo para el desarrollo, el que puede ser cualquiera de los otros existentes, como formal, evolutivo, cascada, etc.</p>
+<p>CUARTO PASO. Revisar todo lo hecho, evalu&aacute;ndolo, y con ello decidir si se contin&uacute;a con las fases siguientes y planificar la pr&oacute;xima actividad.</p>
+<div class="subheading mb-3">CARACTER&Iacute;STICAS:</div>
+<p>&bull; En cada giro se construye un nuevo modelo del sistema completo.</p>
+<p>&bull; Este modelo puede combinarse con otros modelos de proceso de desarrollo (cascada, evolutivo).</p>
+<p>&bull; Mejor modelo para el desarrollo de grandes sistemas.</p>
+<p>&bull; El an&aacute;lisis de riesgo requiere la participaci&oacute;n de personal altamente calificado.</p>
+<div class="subheading mb-3">VENTAJAS:</div>
+<p>&bull; El modelo en espiral puede adaptarse y aplicarse a lo largo de la vida del software de computadora.</p>
+<p>&bull; Como el software evoluciona a medida que progresa el proceso, el desarrollador y el cliente comprenden y reaccionan mejor ante riesgos en cada uno de los nivele evolutivos.</p>
+<p>&bull; El modelo en espiral permite a quien lo desarrolla aplicar el enfoque de construcci&oacute;n de prototipos en cualquier etapa de evoluci&oacute;n del producto.</p>
+<p>&bull; El modelo en espiral demanda una consideraci&oacute;n directa de los riesgos t&eacute;cnicos en todas las etapas del proyecto y si se aplica adecuadamente debe reducir los riesgos antes de que se conviertan en problemas.</p>
+<p>&bull; En la utilizaci&oacute;n de grandes sistemas a doblado la productividad.</p>
+<h3 class="mb-0">DESARROLLO R&Aacute;PIDO DE APLICACIONES (DRA)</h3><img src="img/DRA.jpg" width="490" height="567"><div class="subheading mb-3">DEFINICI&Oacute;N:</div>
+<p>&bull; Es un modelo de proceso del ciclo de vida cl&aacute;sico que enfatiza un ciclo de vida de desarrollo extremadamente corto.</p>
+<p>&bull; El modelo DRA es una adaptaci&oacute;n a alta velocidad del ciclo de vida cl&aacute;sico en el que se logra el desarrollo r&aacute;pido utilizando un enfoque de construcci&oacute;n basado en componentes. Si se comprenden bien los requisitos y se limita el &aacute;mbito del proyecto, el proceso DRA permite al equipo de desarrollo crear un sistema completamente funcional dentro de per&iacute;odos cortos de tiempo.</p>
+<p>&bull; Cuando se utiliza principalmente para aplicaciones de sistemas de informaci&oacute;n, el enfoque DRA comprende las siguientes fases:</p>
+<p>--Modelado de gesti&oacute;n: El flujo de informaci&oacute;n entre las funciones de gesti&oacute;n se modela de forma que responda a las siguientes preguntas: &iquest;Qu&eacute; informaci&oacute;n conduce el proceso de gesti&oacute;n? &iquest;Qu&eacute; informaci&oacute;n se genera? &iquest;Qui&eacute;n la genera? &iquest;A d&oacute;nde va la informaci&oacute;n? &iquest;Qui&eacute;n la procesa?</p>
+<p>--Modelado de datos: El flujo de informaci&oacute;n definido como parte de la fase de modelado de gesti&oacute;n refina como un conjunto de objetos de datos necesarios para apoyar la empresa. Se definen las caracter&iacute;sticas de cada uno de los objetos y relaciones entre estos objetos.</p>
+<p>--Modelado de procesos: Los objetos de datos definidos en la fase de modelado de datos quedan transformados para lograr el flujo de informaci&oacute;n necesario para implementar una funci&oacute;n de gesti&oacute;n. Las descripciones se crean para a&ntilde;adir, modificar, suprimir, o recuperar un objeto de datos.</p>
+<p>--Generaci&oacute;n de aplicaciones: El DRA asume la utilizaci&oacute;n de t&eacute;cnicas de cuarta generaci&oacute;n. En lugar de crear software con lenguajes de programaci&oacute;n de tercera generaci&oacute;n, el proceso DRA trabaja para volver a utilizar componentes de programas ya existentes (cuando es posible) o a crear componentes reutilizables (cuando sea necesario). En todos los casos se utilizan herramientas autom&aacute;ticas para facilitar la construcci&oacute;n del software.</p>
+<p>--Prueba y entrega: Como el proceso DRA enfatiza la reutilizaci&oacute;n, ya se han comprobado muchos de los componentes de los programas. Esto reduce tiempo de pruebas. Sin embargo, se deben probar todos los componentes nuevos y se deben ejercitar todas las interfaces a fondo.</p>
+<p>--Prueba y entrega: Como el proceso DRA enfatiza la reutilizaci&oacute;n, ya se han comprobado muchos de los componentes de los programas. Esto reduce tiempo de pruebas. Sin embargo, se deben probar todos los componentes nuevos y se deben ejercitar todas las interfaces a fondo.</p>
+<div class="subheading mb-3">LIMITACIONES:</div>
+<p>Las limitaciones de tiempo impuestas en un proyecto DRA demandan &aacute;mbito en escalas.</p>
+<p>&bull; Si una aplicaci&oacute;n de gesti&oacute;n puede modularse de forma que permita completarse cada una de las funciones principales en menos de tres meses, es el candidato del DRA.</p>
+<p>&bull; Cada una de las funciones puede ser afrontada por un equipo DRA diferente y ser integradas en un solo conjunto.</p>
+<div class="subheading mb-3">PROBLEMAS:</div>
+<p>&bull; Para proyectos grandes aunque por escalas, el DRA requiere recursos humanos suficientes como para crear el n&uacute;mero correcto de equipos DRA.</p>
+<p>&bull; DRA requiere clientes y desarrolladores comprometidos en las r&aacute;pidas actividades necesarias para completar un sistema en un marco de tiempo abreviado. Si no hay compromiso, por ninguna de las partes constituyentes, los proyectos DRA fracasar&aacute;n.</p>
+<p>&bull; No todos los tipos de aplicaciones son apropiados para DRA.</p>
+<p>&bull; Si un sistema no puede modularizarse adecuadamente, la construcci&oacute;n de los componentes necesarios para DRA ser&aacute; problem&aacute;tico.</p>
+<p>&bull; Si est&aacute; en juego el alto rendimiento, y se va a conseguir el rendimiento convirtiendo interfaces en componentes de sistemas, el modelo DRA puede que no funcione.</p>
+<p>&bull; DRA no es adecuado cuando los riesgos t&eacute;cnicos son altos. Esto ocurre cuando una nueva aplicaci&oacute;n hace uso de tecnolog&iacute;as nuevas, o cuando el nuevo software requiere un alto grado de interoperatividad con programas de computadoras ya existentes.</p>
+<p>&bull; DRA enfatiza el desarrollo de componentes de programas reutilizables.</p>
+<h3 class="mb-0">ORIENTADOS A LA REUTILIZACI&Oacute;N</h3><img src="img/orientados.png" width="700" height="300"><div class="subheading mb-3">DEFINICI&Oacute;N:</div>
+<p>&bull; Esta aproximaci&oacute;n se basa en la existencia de un n&uacute;mero significativo de elementos reutilizables. El proceso de desarrollo, se centra en la integraci&oacute;n de estos elementos en un sistema, en lugar de desarrollarlo desde cero.</p>
+<p>&bull; Incorpora muchas caracter&iacute;sticas del modelo en espiral. Es evolutivo por naturaleza.</p>
+<p>&bull; El proceso tiende a estructurarse en dos subprocesos distintos y separados:</p>
+<p>--El desarrollo para reutilizaci&oacute;n: construcci&oacute;n de elementos reutilizables dentro de un dominio concreto.</p>
+<p>El desarrollo con reutilizaci&oacute;n: construcci&oacute;n de aplicaciones utilizando elementos reutilizables.</p>
+<p>&bull; Etapas del proceso</p>
+<p>--An&aacute;lisis de los componentes;</p>
+<p>--Requisitos de modificaci&oacute;n;</p>
+<p>--Configuraci&oacute;n del sistema con la reutilizaci&oacute;n;</p>
+<p>--Desarrollo e integraci&oacute;n.</p>
+<p>&bull; La reutilizaci&oacute;n es ahora el enfoque est&aacute;ndar para la construcci&oacute;n de muchos tipos de sistemas de negocio.</p>
+<h3 class="mb-0">ORIENTADOS A OBJETOS</h3><img src="img/objetos.png" width="800" height="400"><div class="subheading mb-3">DEFINICI&Oacute;N:</div>
+<p>&bull; El modelo orientado a objetos utiliza el paradigma de la orientaci&oacute;n a objetos para el desarrollo de software.</p>
+<p>&bull; Este enfoque realiza la construcci&oacute;n de modelos de un sistema por medio de la identificaci&oacute;n y la especificaci&oacute;n de un conjunto de objetos relacionados, que colaboran entre si de acuerdo a los requerimientos establecidos para el sistema de objetos.</p>
+<p>&bull; La definici&oacute;n del modelado orientado a objetos puede claramente dividir el enfoque en tres dimensiones:</p>
+<p>--La dimensi&oacute;n estructural.</p>
+<p>--La dimensi&oacute;n din&aacute;mica.</p>
+<p>--La dimisi&oacute;n funcional.</p>
+<p>&bull; Este tipo de modelado implica la realizaci&oacute;n de las siguientes actividades:</p>
+<p>1. Identificar las clases, modelos y objetos. (objetos y atributos).</p>
+<p>2. Asociar est&aacute;ticamente los objetos. (relaciones dependientes del dominio del problema).</p>
+<p>3. Especificaci&oacute;n del comportamiento de los objetos. (Definir como se comportaran los objetos).</p>
+<p>4. Definir la jerarqu&iacute;a de herencia de las clases. (Definir la jerarqu&iacute;a de clases, para que el sistema quede lo m&aacute;s abstracto posible).</p>
+<div class="subheading mb-3">CARACTER&Iacute;STICAS:</div>
+<p>&bull; EL modelado Orientado a Objetos est&aacute; basado en el paradigma orientado a objetos.</p>
+<p>&bull; Trata el almacenamiento de objetos (persistencia de los objetos).</p>
+<p>&bull; Define un lenguaje para le definici&oacute;n y manipulaci&oacute;n de objetos.</p>
+<p>&bull; Incluye mecanismos para optimizar el acceso (Indexaci&oacute;n y Clustering), el control de la concurrencia, seguridad y gesti&oacute;n de usuarios, facilidad de consulta y recuperaci&oacute;n ante fallos.</p>
+<p>&bull; Debido a que es un esquema orientado a objetos incluye: Encapsulamiento, herencia, polimorfismo, etc.</p>
+<p style="text-align: center;"><strong>EST&Aacute;NDARES RELACIONADOS CON EL PROCESO SOFTWARE: IEEE/EIA</strong></p>
+<p style="text-align: center;"><strong>(ISO/IEC) 12207, SWEBOK, CMMI, PMBOK)</strong></p>
+<p style="text-align: center;">ISO/IEC 12207&nbsp;</p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;text-indent:0cm;line-height:200%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size: 14px; line-height: 200%; font-family: Calibri, sans-serif;">El ISO/IEC 12207 es el est&aacute;ndar para los procesos de ciclo de vida del software de la organizaci&oacute;n ISO</span></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;text-indent:0cm;line-height:200%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size: 14px;"><span style="font-family: Calibri, sans-serif;"><span style="line-height: 200%;">Este est&aacute;ndar se concibi&oacute; para aquellos interesados en adquisici&oacute;n de software, as&iacute; como desarrolladores y proveedores. El est&aacute;ndar indica una serie de procesos desde la recopilaci&oacute;n de requisitos hasta la culminaci&oacute;n del software.</span></span></span></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;text-indent:0cm;line-height:200%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size: 14px;"><span style="font-family: Calibri, sans-serif;"><span style="line-height: 200%;">El est&aacute;ndar comprende 17 procesos lo cuales son agrupados en tres categor&iacute;as:</span></span></span></p>
+<ul style="list-style-type: disc;">
+    <li><span style="font-size: 14px;"><span style="font-family: Calibri, sans-serif;"><span style="line-height: 107%;">Principales</span></span></span></li>
+    <li><span style="font-size: 14px;"><span style="font-family: Calibri, sans-serif;"><span style="line-height: 107%;">De apoyo</span></span></span></li>
+    <li><span style="font-size: 14px;"><span style="font-family: Calibri, sans-serif;"><span style="line-height: 107%;">De organizaci&oacute;n</span></span></span></li>
+</ul>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;text-indent:0cm;line-height:200%;font-size:15px;font-family:"Calibri",sans-serif;text-align:center;'><span style="font-size: 14px;"><span style="font-family: Calibri, sans-serif;"><span style="line-height: 200%;">&nbsp;</span></span></span></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;text-indent:0cm;line-height:200%;font-size:15px;font-family:"Calibri",sans-serif;text-align:center;'><span style="font-size: 14px;"><span style="font-family: Calibri, sans-serif;"><span style="line-height: 200%;">Este est&aacute;ndar agrupa las actividades que se pueden llevar a cabo durante el ciclo de vida del software en cinco procesos principales, ocho procesos de apoyo y cuatro procesos organizativos. Cada proceso del ciclo de vida est&aacute; divido en un conjunto de actividades; cada actividad se sub-divide a su vez en un conjunto de tareas. A continuaci&oacute;n, se hace una introducci&oacute;n de cada proceso</span></span></span><span style="font-size: 14px; line-height: 200%; font-family: Calibri, sans-serif;">.</span></p>
+<p style="text-align: center;"><br></p>
+<p><br></p>
+<p style="margin: 0cm 0cm 8pt; text-indent: 0cm; line-height: 200%; font-size: 15px; font-family: Calibri, sans-serif; text-align: justify;"><br></p>
+<p><br></p>
+  <p></p>
+  <img src="img/iso.jpg" width="800" height="400">
+<ul>
+<li>Procesos Principales</li>
+</ul>
+<p>Los procesos principales del ciclo de vida son cinco el cual brinda servicio a las partes principales durante el ciclo de vida del software. Una parte principal es aquella que inicia o lleva a cabo el desarrollo, operaci&oacute;n, o mantenimiento de los productos software. Estas partes principales son el adquiriente, el proveedor, el desarrollador, el operador y el responsable de mantenimiento de productos software. Los procesos principales son:</p>
+<ul>
+<li>Proceso de Adquisici&oacute;n</li>
+</ul>
+<p>Define las actividades del adquiriente, es decir, la organizaci&oacute;n que adquiere un sistema, producto software o servicio software</p>
+<p>&nbsp;</p>
+<ul>
+<li>Proceso de Suministro</li>
+</ul>
+<p>Se relaciona con las actividades del proveedor, organizaci&oacute;n que proporciona sistema, producto o servicio software al adquiriente</p>
+<p>&nbsp;</p>
+<ul>
+<li>Proceso de Desarrollo</li>
+</ul>
+<p>Define las actividades que tiene que llevar a cabo el desarrollador, organizaci&oacute;n que define y desarrolla el producto software</p>
+<p>&nbsp;</p>
+<ul>
+<li>Proceso de Operaci&oacute;n</li>
+</ul>
+<p>Define las actividades del operador, organizaci&oacute;n que proporciona el servicio, organizaci&oacute;n que proporciona el servicio de operar un sistema inform&aacute;tico en su entorno real</p>
+<p>&nbsp;</p>
+<ul>
+<li>Proceso de Mantenimiento</li>
+</ul>
+<p>Define las actividades del responsable de mantenimiento o la organizaci&oacute;n que se encarga de esta funci&oacute;n, es decir, la gesti&oacute;n de las modificaciones al producto para mantenerlo actualizado y operativo.</p>
+<p><a name="_Toc47641875"></a>SWEBOK<strong>:</strong></p>
+<p>Contiene conceptos y conocimientos acerca de la ingenier&iacute;a de software y de c&oacute;mo debe de llevarse a cabo por un ingeniero de software, proporciona una visi&oacute;n general acerca del software de calidad y de las buenas pr&aacute;cticas de desarrollo, las &aacute;reas de conocimiento de han ido ampliando a trav&eacute;s de las versiones.</p>
+<ul>
+<li><strong>&Aacute;reas principales:</strong></li>
+</ul>
+<p>Para SWEBOK, el conocimiento se ha agrupado en &aacute;reas, que son:</p>
+<ul>
+<li>Requisitos</li>
+<li>Dise&ntilde;o.</li>
+<li>Desarrollo</li>
+<li>Pruebas</li>
+<li>Mantenimiento</li>
+<li>Gesti&oacute;n de configuraci&oacute;n.</li>
+<li>Gesti&oacute;n de software.</li>
+<li>Proceso de ingenier&iacute;a.</li>
+<li>Herramientas y m&eacute;todos de ingenier&iacute;a.</li>
+<li>Calidad de software</li>
+</ul>
+  <img src="img/SWEBOK.jpg" width="700" height="500">
+<p><strong>Requisitos:</strong> Interpreta las necesidades del cliente en una lista de objetivos a cumplir, cada uno se puede trasformar en un subsistema o s&oacute;lo en una funcionalidad, si los requisitos no son interpretados correctamente, el sistema sufrir&aacute; consecuencias graves en el desarrollo y mantenimiento</p>
+  <img src="img/SWEBOK1.jpg" width="700" height="500">
+  <p><strong>Dise&ntilde;o:</strong> Define la arquitectura, interfaces, diagramas de flujo, entre otros del sistema; en esta etapa se analizan los requerimientos y se crean posibles soluciones gr&aacute;ficas a cada uno.</p>
+  <img src="img/SWEBOK2.jpg" width="700" height="500">
+  <p><strong>Desarrollo:</strong> Interpreta la arquitectura, esquemas y diagramas de flujo definidos en la etapa de dise&ntilde;o en codificaci&oacute;n de un lenguaje de programaci&oacute;n, interactuando tambi&eacute;n con el sistema operativo y algunas veces con los dispositivos de entrada y salida.</p>
+  <img src="img/SWEBOK3.jpg" width="700" height="500">
+  <p><strong>Pruebas:</strong> Eval&uacute;a la eficiencia y calidad del producto detectando las posibles mejoras o fallas.</p>
+  <img src="img/SWEBOK4.jpg" width="700" height="500">
+  <p><strong>Mantenimiento:</strong> Corrige las fallas y realiza las mejoras detectadas anteriormente.</p>
+  <img src="img/SWEBOK5.jpg" width="700" height="500">
+  <p><strong>Gesti&oacute;n de configuraci&oacute;n</strong>: Identifica la configuraci&oacute;n general del sistema para realizar posibles adaptaciones y configurar su ciclo de vida, detecta las caracter&iacute;sticas f&iacute;sicas y funcionales del sistema adem&aacute;s del cumplimiento de sus objetivos.</p>
+  <img src="img/SWEBOK6.jpg" width="700" height="500">
+  <p><strong>Gesti&oacute;n de ingenier&iacute;a:</strong> Verifica la infraestructura del proyecto, el control y la planeaci&oacute;n del programa, asegura que el mantenimiento del producto sea adecuado.</p>
+  <img src="img/SWEBOK7.jpg" width="700" height="500">
+  <p><strong>Gesti&oacute;n del proceso:</strong> Valida todas las etapas del proceso, como las tareas que componen el proceso, funciones, mediciones, configuraci&oacute;n, mantenimiento, entre otros.</p>
+    <img src="img/SWEBOK8.jpg" width="700" height="500">
+  <p><strong>Herramientas y proceso de ingenier&iacute;a:</strong> son todos los recursos virtuales que nos ayudan a realizar tareas exhaustivas como, validar el producto, crear el dise&ntilde;o, realizar pruebas, detectar fallas, entre otros; pero es importante saber que estas herramientas s&oacute;lo interpretan el resultado de la informaci&oacute;n que brindamos, si la informaci&oacute;n es err&oacute;nea, el resultado puede llevarnos a una mala decisi&oacute;n.</p>
+  <img src="img/SWEBOK9.jpg" width="700" height="500">
+  <p><strong>Calidad de software:</strong> el conjunto de las actividades vistas anteriormente tiene como objetivo crear un producto de calidad, el cual pueda brindar al cliente la soluci&oacute;n a los procesos que realiza o a la problem&aacute;tica que tiene, siendo eficaz, costeable, moldeable, y que pueda tener futuras implementaci&oacute;n, &eacute;stas son algunas caracter&iacute;sticas de software de calidad.</p>
+   <img src="img/SWEBOK10.jpg" width="700" height="500">
+  <h2><a name="_Toc47641876"></a>CMMI (Capability Maturity Model Integration):</h2>
+<p>&nbsp;</p>
+<p><strong>&iquest;Qu&eacute; es?</strong></p>
+<p>CMMI es un modelo que contiene las mejores pr&aacute;cticas y que provee a las organizaciones de aquellos elementos que son esenciales para que los procesos de negocio de las mismas sean efectivos.<br /> Dicho nombre, tanto como los cinco niveles de la representaci&oacute;n por etapas, est&aacute;n inspirados en el modelo de madurez Manufacturing Maturity Model de Crosby.<br /> En principio el modelo CMM era aplicado en programas de defensa, pero lo cierto es que este ha logrado gran aceptaci&oacute;n, tan es as&iacute; que ha sido sometido a varias revisiones e iteraciones. El problema con esto, es que debido a la gran proliferaci&oacute;n de modelos de desarrollo de software comenzaron a surgir confusiones, con el fin de crear un solo marco extensible para la ingenier&iacute;a de sistemas, la ingenier&iacute;a de software y el desarrollo de productos.</p>
+<p>CMMI establece cinco niveles de &lsquo;madurez&rsquo; de las organizaciones en funci&oacute;n de si tienen o no una serie de caracter&iacute;sticas espec&iacute;ficas. Las organizaciones pueden ser evaluadas y en funci&oacute;n de dicha evaluaci&oacute;n, se les puede otorgar un nivel de madurez; &eacute;sta se califica en una escala del 1 al 5, es decir, a trav&eacute;s de CMMI podemos saber el grado de &lsquo;madurez&rsquo; de los procesos que tiene una organizaci&oacute;n, de acuerdo a un modelo de buenas pr&aacute;cticas.</p>
+  <img src="img/CMMI.png" width="500" height="300">
+<p><strong>&nbsp;</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Niveles de madurez por etapas.</strong></p>
+<ul>
+<li>Nivel 1 (Inicial): El proceso es impredecible, es reactivo y pobremente controlado.</li>
+<li>Nivel 2 (Administrado): En este nivel, el proceso es reactivo y se caracteriza por su aplicaci&oacute;n a proyectos.</li>
+<li>Nivel 3 (Definido): En este nivel, el proceso se vuelve proactivo y se ve a nivel de organizaci&oacute;n.</li>
+<li>Nivel 4 (Administrado Cuantitativamente): Este proceso es medido y controlado.</li>
+<li>Nivel 5 (Optimizado): El Proceso se enfoca a una mejora continua.</li>
+</ul>
+<p><strong>Niveles de madurez Continuo.</strong></p>
+<ul>
+<li>Nivel 0 (Incompleto): El proceso no se ejecuta o se hace de una manera parcial.</li>
+<li>Nivel 1 (Ejecutado): El proceso se ejecuta y se producen productos basados en entradas identificadas.</li>
+<li>Nivel 2 (administrado): El proceso es reactivo y se caracteriza por su aplicaci&oacute;n en proyectos.</li>
+<li>Nivel 3 (Definido): El proceso es proactivo y se visualiza a nivel de la organizaci&oacute;n.</li>
+<li>Nivel 4 (Administrado Cuantitativamente): Este proceso es medido y controlado.</li>
+<li>Nivel 5 (Optimizado): El Proceso se enfoca a una mejora continua.</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>&nbsp;</strong></p>
+<h2><a name="_Toc47641877"></a>PMBOK (<strong>Project Management Institute</strong> (o PMI)):</h2>
+<p>&nbsp;</p>
+<p>El PMBOK es la Gu&iacute;a de Fundamentos para la direcci&oacute;n de proyectos y nos suministra las pautas, conocimientos y pr&aacute;cticas aplicables a diferentes clases de proyectos, algo que hay que tener claro es que este instrumento no es una metodolog&iacute;a.<br /> El PMBOK ha sido dise&ntilde;ado por varios profesionales de esta disciplina y documenta la informaci&oacute;n necesaria para iniciar, planificar, ejecutar, supervisar, controlar y cerrar un proyecto, adem&aacute;s establecen los grupos de procesos y &aacute;reas de conocimiento que se deben implementar en cada una de las etapas de un proyecto.<br /> El PMI ha dise&ntilde;ado este libro para ser aplicado por los directores de proyectos a nivel mundial y ha estandarizado diferentes ex&aacute;menes y cursos que hacen que todos los Project manager hablen el mismo idioma.</p>
+<p><strong>Alguno de los ex&aacute;menes es:</strong></p>
+<p>&ndash; T&eacute;cnico certificado en direcci&oacute;n de proyectos (CAPM)<br /> &ndash;<strong>&nbsp;</strong>Profesional en direcci&oacute;n de proyectos (PMP)<br /> &ndash; Profesional en direcci&oacute;n de programas (PgMP)<br /> &ndash; Practicante de metodolog&iacute;as &aacute;giles certificado por el PMI (PMI-ACP)<br /> &ndash; Profesional en gesti&oacute;n de riesgos (PMI-RMP)<br /> &ndash; Profesional en gesti&oacute;n de cronogramas (PMI-SP)</p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Prop&oacute;sito del PMBOK:</strong><br /> </p>
+<p>El prop&oacute;sito principal de este libro es la aplicaci&oacute;n de conocimientos,&nbsp;procesos,&nbsp;habilidades,&nbsp;herramientas y t&eacute;cnicas que son de gran relevancia en el &eacute;xito de un proyecto.<br /> Establece c&oacute;digos de &eacute;tica y conducta a los profesionales que ejercen esta profesi&oacute;n,&nbsp;y deja claro las obligaciones que se tiene respecto a la responsabilidad,&nbsp;respeto,&nbsp;equidad,&nbsp;y honestidad.<br /> Todo profesional en esta materia deber&aacute; tener un amplio L&eacute;xico.<br /> Y el m&aacute;s importante de los prop&oacute;sitos es estandarizar todos los procesos que se llevan a cabo en la direcci&oacute;n de los proyectos y que todos los directores de proyectos tengan claros conocimientos desde el inicio hasta el final de un proyecto.</p>
+  <img src="img/PMBOK.jpg" width="400" height="400">
+  </section>
+      </div>
+    </section>
+    <hr class="m-0">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+      <div class="w-100">
+        <h2 class="mb-5"><img src="img/Williams.jpg" width="760" height="756"><p>Williams Geovanny Carrillo Fuentes</h2>
+<p><strong>INFORMACION:</strong></p>
+<ul>
+<li style="text-align: left;"><strong>Graduado en el Colegio Fiscal "Anc&oacute;n" como ingeniero en sistemas</strong></li>
+<li style="text-align: left;"><strong>Experiencia laboral como pasante en Netlife</strong></li>
+<li style="text-align: left;"><strong>Conocimiento basico en C</strong></li>
+<li style="text-align: left;"><strong>Actual estudiante de la Universidad De Guayaquil</strong></li>
+</ul>
+        <div class="social-icons">
+            <a link href="https://github.com/WilliamsGTX">
+            <i class="fab fa-github"></i>
+          </a>
+          <a link href="https://www.instagram.com/will_geova/">
+            <i class="fab fa-instagram"></i>
+          </a>
+            <a link href="https://wa.me/593963784313">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <a link href="https://www.facebook.com/guilliam.yobani.3">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/resume.min.js"></script>
+
+</body>
+
+</html>
